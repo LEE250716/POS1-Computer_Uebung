@@ -4,6 +4,17 @@ public class Computer
     private boolean laptop;
     private int     preis;
     
+    public Computer()
+    {
+        
+    }
+    
+    public Computer(String neuHersteller)
+    {
+        setHersteller(neuHersteller);
+    }
+    
+    
     public String getHersteller()
     {
         return hersteller;
